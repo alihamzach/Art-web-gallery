@@ -123,7 +123,7 @@
     inset: 0;
    }
 
-.mask1{
+.mask1  {
    background: var(--gold, #d5966c);
     width: 1440px;
     height: 244px;

@@ -25,9 +25,9 @@
 }
 .t1{
    color: #D9D9D9;
-   font-feature-settings: 'clig' off, 'liga' off;
-   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 1.25); */
    font-family: Big Shoulders Display;
+   
    font-size: 70px;
    font-style: normal;
    font-weight: 900;
@@ -36,9 +36,13 @@
    position: absolute;
    width: 514px;
    margin-left: 148px;
-   margin-right: px;
    margin-top: 189px;
-
+   background: linear-gradient(to right, #f4f7f7 59%, #0a0a0a 15%);
+   -webkit-background-clip:  text;
+   -webkit-text-fill-color: transparent ;
+    }
+    .ty{
+      
     }
 
 .t2{
@@ -206,12 +210,47 @@
 }
 
 
-/* .mask3{
-  position: absolute;
-   inset: 0;
+.mask3{
+   position: relative;
    background-color: #151515;
+   margin-top: 2000px;
+   height: 244px;
+   width: 1440px;
   }
+  
+.tt{
+   color:#ffffff;
+   position: relative;
+   overflow: visible;
+   padding-top: 50px;
+   padding-left: 50px;
 
+  }
+  
+  .t4 {
+   color: var(--white, #ffffff);
+    text-align: left;
+    font: 300 18px/28px 'Outfit', sans-serif;
+    position: absolute;
+    left: 300px;
+   top: calc(50% - 42px);
+    width: 430px;
+    margin-left: 300px;
+   }
+   .social{
+      position: absolute;
+      overflow: visible;
+      margin-left:1175px;
+   }
+   /* .social {
+      position: absolute;
+       left: 1175px;
+      top: 2390px;
+       overflow: visible;
+       color: white;
+      }  */
+  
+/* 
 .group-8 {
   width: 730px;
    height: 84px;
@@ -221,15 +260,7 @@
    overflow: hidden;
   }
 
-.t4 {
-  color: var(--white, #ffffff);
-   text-align: left;
-   font: 300 18px/28px 'Outfit', sans-serif;
-   position: absolute;
-   left: 300px;
-  top: calc(50% - 42px);
-   width: 430px;
-  }
+
 
 .modernartgallery {
   position: absolute;
@@ -238,10 +269,5 @@
    overflow: visible;
   }
 
-.social {
-  position: absolute;
-   left: 1175px;
-  top: 2390px;
-   overflow: visible;
-  } */
+*/
 
